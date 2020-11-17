@@ -1,4 +1,4 @@
-package br.com.renan.classtworestspringbootudemy;
+package br.com.renan.calculator;
 
 public class Calculate {
     private final long id;
