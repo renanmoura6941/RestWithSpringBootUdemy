@@ -1,13 +1,13 @@
-package br.com.renan.verbos;
+package br.com.renan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VerbosApplication {
+public class Startup {
 
 	public static void main(String[] args) {
-		SpringApplication.run(VerbosApplication.class, args);
+		SpringApplication.run(Startup.class, args);
 	}
 
 }

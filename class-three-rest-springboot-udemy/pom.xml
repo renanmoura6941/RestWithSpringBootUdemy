@@ -9,14 +9,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.renan</groupId>
-	<artifactId>verbos</artifactId>
+	<artifactId>class-two-rest-springboot-udemy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>verbos</name>
+	<name>class-two-rest-springboot-udemy</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+	
 
 	<dependencies>
 		<dependency>
@@ -34,6 +35,11 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
 
